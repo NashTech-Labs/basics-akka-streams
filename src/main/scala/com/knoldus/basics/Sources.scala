@@ -1,11 +1,10 @@
-package com.knoldus
+package com.knoldus.basics
 
 import akka.NotUsed
 import akka.actor.Cancellable
 import akka.stream.scaladsl.Source
 
 import scala.concurrent.duration._
-
 object Sources {
   //different sources
   val numbers: Source[Int, NotUsed] = Source(1 to 10)

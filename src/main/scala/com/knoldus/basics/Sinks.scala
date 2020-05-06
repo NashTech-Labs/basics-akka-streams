@@ -1,4 +1,4 @@
-package com.knoldus
+package com.knoldus.basics
 
 import akka.Done
 import akka.stream.scaladsl.Sink
